@@ -1,0 +1,30 @@
+{
+  "name": "coin-stats",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier": "./node_modules/.bin/prettier --write \"**/*.{ts,tsx,css,scss}\""
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.2",
+    "axios": "^0.21.1",
+    "chart.js": "^3.4.1",
+    "next": "11.0.1",
+    "node-sass": "^4.14.1",
+    "prettier": "^2.3.2",
+    "react": "17.0.2",
+    "react-chartjs-2": "^3.0.4",
+    "react-dom": "17.0.2",
+    "react-infinite-scroll-component": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.14",
+    "eslint": "7.31.0",
+    "eslint-config-next": "11.0.1",
+    "typescript": "4.3.5"
+  }
+}
