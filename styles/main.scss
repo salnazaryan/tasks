@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+  background-color: $white;
+}
+
+.app-container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
+  .main {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    padding: 10px;
+
+    .header {
+      width: 100%;
+
+      .logo {
+        cursor: pointer;
+      }
+    }
+  }
+}

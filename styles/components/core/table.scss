@@ -1,0 +1,23 @@
+.cs-table-root {
+  width: 100%;
+
+  .cs-table-container {
+    max-height: 600px;
+
+    .cs-table {
+      .cs-table-body {
+        .cs-table-row {
+          &:hover {
+            background-color: $grayedOpacity;
+          }
+        }
+      }
+
+      .no-data-row {
+        td {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
